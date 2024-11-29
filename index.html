@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <main class="container">
+        <section id="tempo" class="card">
+            <h2>Previsão do Tempo</h2>
+            <div class="busca-container">
+                <input type="text" id="cityInput" placeholder="Digite o nome da cidade" aria-label="Nome da cidade">
+                <button id="botaoBusca" aria-label="Buscar clima">
+                    <img src="https://www.svgrepo.com/show/488200/find.svg" alt="Ícone de busca" class="search-icon">
+                </button>
+            </div>
+            <div id="previsaoTempo" class="previsaoTempo"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
